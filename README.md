@@ -1,4 +1,4 @@
-Note: This works is contributed to the community by implementing a solution and
+Note: This work is contributed to the community by implementing a solution and
 sharing it, long term maintainership is uncertain.
 
 # tox-rye
