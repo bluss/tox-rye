@@ -1,0 +1,39 @@
+[project]
+name = "tox-rye"
+version = "0.1.0"
+description = "Use Rye to discover or fetch Python versions for Tox"
+authors = [
+    { name = "Ulrik Sverdrup", email = "ulrik.sverdrup@gmail.com" }
+]
+dependencies = [
+    "virtualenv-rye-discovery @ git+https://github.com/bluss/virtualenv-rye-discovery"
+]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+requires-python = ">= 3.8"
+
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "License :: OSI Approved :: MIT License",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "tox~=4.6.0",
+]
+
+[tool.hatch.build]
+exclude = [
+    "/.github",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project.entry-points.tox]
+tox_rye = "tox_rye.plugin"
