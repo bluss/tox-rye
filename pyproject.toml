@@ -6,7 +6,7 @@ authors = [
     { name = "Ulrik Sverdrup", email = "ulrik.sverdrup@gmail.com" }
 ]
 dependencies = [
-    "virtualenv-rye-discovery @ git+https://github.com/bluss/virtualenv-rye-discovery@0.1.1"
+    "virtualenv-rye-discovery @ git+https://github.com/bluss/virtualenv-rye-discovery@0.2.0"
 ]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
