@@ -1,5 +1,8 @@
 Note: This work is contributed to the community by implementing a solution and
-sharing it, long term maintainership is uncertain.
+sharing it, long term maintainership is uncertain. Only published on github, not PyPI.
+
+**No longer maintained; I recommend using uv and tox-uv. New maintainers
+welcome to fork and take over.**
 
 # tox-rye
 
